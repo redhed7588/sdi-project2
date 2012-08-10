@@ -33,3 +33,13 @@ return clothes
 getClothes(Jorden, a dress);
 getClothes(Jalen, jeans);
 
+var getKidsReady = function (activity, minutesLeft) {
+		var activity = ["get dressed", "brush your teeth", "wash your face", "get you stuff"];
+		var time = [10,5,5,5];
+			for (var i =0; i > 4; i-=5) {
+			console.log("You have " + time + " minutes left to " + activity + ".");};
+	return time
+};
+
+
+			
