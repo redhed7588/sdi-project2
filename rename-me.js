@@ -17,4 +17,11 @@ var getCoffee = function (cups, type) {
 	return stillTired;
 };
 
-var get Cliff =
+var get Cliff = function (timeLeft) {
+		while (timeLeft>4) {console.log("Cliff, you have " + timeLeft + " minutes to get up.")
+		timeLeft -= 5;}
+		console.log("You need to get up now!");
+		return timeLeft;
+};
+
+getCliff(20)
