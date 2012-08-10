@@ -17,7 +17,7 @@ var getCoffee = function (cups, type) {
 	return stillTired;
 };
 
-var get Cliff = function (timeLeft) {
+var getCliff = function (timeLeft) {
 		while (timeLeft>4) {console.log("Cliff, you have " + timeLeft + " minutes to get up.")
 		timeLeft -= 5;}
 		console.log("You need to get up now!");
@@ -25,3 +25,11 @@ var get Cliff = function (timeLeft) {
 };
 
 getCliff(20)
+
+var getClothes = function(kid, clothes) {console.log("For " + kid + "I pick out " + clothes + ".");
+return clothes
+};
+
+getClothes(Jorden, a dress);
+getClothes(Jalen, jeans);
+
